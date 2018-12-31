@@ -8,14 +8,13 @@
 {
     top: 0; left: 0;
     position: absolute;
-    background: #232323;
     height: 6vh; width: 100vw;
+    background: rgb(35, 35, 35);
 }
-
 .nav > .nav-title 
 {
-    color: rgb(187, 185, 185);
-    margin-top: 2vh;
+    color: rgb(255, 255, 255);
+    margin-top: 1vh;
     margin-left: 2vw; 
     font-family: UniSansHeavy, Whitney, Arial, Helvetica, Arial, sans-serif;
 }
