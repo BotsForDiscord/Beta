@@ -9,13 +9,13 @@
     top: 0; left: 0;
     position: static;
     background: #323232;
-    height: 4vh; width: 100vw;
-    
+    height: 6vh; width: 100vw;
 }
 
 .nav > .nav-title 
 {
     color: #ccc;
+    margin-top: 1vh;
     margin-left: 2vw; 
     font-family: UniSansHeavy, Whitney, Arial, Helvetica, Arial, sans-serif;
 }
