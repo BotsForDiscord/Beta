@@ -1,21 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://use.fontawesome.com/releases/v5.0.9/css/all.css');
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @font-face {
   font-family: UniSansHeavy;
   src: url(./fonts/uni-sans.heavy-caps.otf);
 }
 
-.nav
-{
-    top: 0; left: 0;
-    position: absolute;
-    background: #232323;
-    height: 6vh; width: 100vw;
-}
+   .nav
+    {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 50px !important;
+    background: #434343 !important;
+    }
+   .nav-item
+    {
+        font-size: 12.5px;
+        cursor: pointer;
+        display: inline-block;
+        text-align: center;
+        height: 60%;
+        position: relative;
+        color: rgb(255, 255, 255);
+        background: transparent;
+        top: 35%;
+        width: 6%;
+        right: -50%;
+        text-decoration: none;
+        font-family: Whitney;
+    }
+    .nav-item:after 
+    {
+        position:relative;
+        display: block;
+        content: '';
+        border-bottom: 1px solid #ffffff;
+        transform: scaleX(0); 
+        top: 0.5em;
+        left:0;
+        width:100%;
+        transition: transform 250ms ease-in-out;
+    }
+    .nav-item:hover:after {
+        transform: scaleX(1) !important;
+    }
+    .nav-dropdown {
+        font-size: 12.5px;
+        cursor: pointer;
+        display: inline-block;
+        text-align: center;
+        height: 60%;
+        position: relative;
+        color: rgb(255, 255, 255);
+        background: transparent;
+        top: 35%;
+        width: 6%;
+        right: 20px;
+        text-decoration: none;
+        font-family: Ubuntu;
+        transition: 0.5s;
 
-.nav > .nav-title 
+    }
+    .dropdown {
+        position: relative;
+        top: 0;
+        width: 100%;
+        color: rgb(35,35,35);
+        border: 0.6px solid transparent;
+        border-radius: 5px;
+        height: 300%;
+    }
+    .nav-title
+    {
+        font-family: UniSansHeavy, Whitney, Arial, Helvetica, sans-serif;
+        position: absolute;
+        top: -1vh;
+        left: 2%;    
+        display: inline-block;
+        color: rgb(255,255,255);
+    }
+    .btn
+    {
+        color: white;
+        background: transparent;
+        border: 0.7px solid #ffffff;
+        border-radius: 5px;
+        height: 6em;
+        width: 8em;
+    }
+
+@media screen and (max-width: 750px)
 {
-    color: rgb(187, 185, 185);
-    margin-top: 2vh;
-    margin-left: 2vw; 
-    font-family: UniSansHeavy, Whitney, Arial, Helvetica, Arial, sans-serif;
+    .nav
+    {
+        position: absolute !important;
+        top: 0 !important;
+        left:  75% !important;
+        width: 20% !important;
+        height: 70% !important;
+        background: #434343 !important;
+        display: flex;
+    }
+    .nav-item
+    {
+        font-size: medium;
+        cursor: pointer;
+        display: flex;
+        width: 30%;
+        margin: 20%;
+        flex-wrap: wrap;
+        text-align: left;
+        height: 10%;
+        position: relative;
+        color: rgb(255, 255, 255);
+        background: transparent;
+        top: 0;
+        left: 0;
+        text-decoration: none;
+        font-family: Whitney;
+    }
 }
