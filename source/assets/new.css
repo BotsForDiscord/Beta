@@ -7,15 +7,15 @@
 .nav
 {
     top: 0; left: 0;
-    position: static;
-    background: #323232;
+    position: absolute;
+    background: #232323;
     height: 6vh; width: 100vw;
 }
 
 .nav > .nav-title 
 {
-    color: #ccc;
-    margin-top: 1vh;
+    color: rgb(187, 185, 185);
+    margin-top: 2vh;
     margin-left: 2vw; 
     font-family: UniSansHeavy, Whitney, Arial, Helvetica, Arial, sans-serif;
 }
