@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@font-face {
+  font-family: UniSansHeavy;
+  src: url(./source/assets/fonts/uni-sans.heavy-caps.otf);
+}
+
 .nav
 {
     background: #323232;
