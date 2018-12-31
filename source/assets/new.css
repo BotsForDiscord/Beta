@@ -1,13 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @font-face {
   font-family: UniSansHeavy;
-  src: url(./source/assets/fonts/uni-sans.heavy-caps.otf);
+  src: url(./fonts/uni-sans.heavy-caps.otf);
 }
 
 .nav
 {
+    top: 0; left: 0;
+    position: static;
     background: #323232;
-    height: 3vh; width: 100vw;
+    height: 4vh; width: 100vw;
     
 }
 
