@@ -1,0 +1,13 @@
+.nav
+{
+    background: #323232;
+    height: 3vh; width: 100vw;
+    
+}
+
+.nav > .nav-title 
+{
+    color: #ccc;
+    margin-left: 2vw; 
+    font-family: UniSansHeavy, Whitney, Arial, Helvetica, Arial, sans-serif;
+}
