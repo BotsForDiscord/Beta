@@ -36,13 +36,109 @@
         text-decoration: none;
         font-family: Ubuntu;
         border: none;
+        outline: none;
+    }
+
+    .card-bottom {
+        width: 100%;
+        max-height: 22vh;
+    }
+
+    .servers
+    {
+        text-align: center;
+        position:relative;
+        top: -13vh;
+        color: #ccc;
+        font-family: Whitney, Arial, Helvetica, sans-serifl
+
+    }
+
+    .description {
+        margin: 1vh;
+        text-align: center;
+        color: #ccc;
+        font-size: 1.3rem;
+        max-width: 100%;
+        max-height: 100%;
+        font-family: Whitney, Arial, Helvetica, sans-serif;
+    }
+    .inside > .opener 
+    {
+        font-weight: 400;
+        font-size: 1.2rem;
+        padding-top: 20vh;
+        text-align: center;
+        font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+        color: #ccc;
+    }
+
+    .bot-area
+    {
+        width: 100%;
+    }
+
+    .bot-card {
+        background: #222227;
+        height: 40vh; 
+        width: 15vw;
+        margin-left: 50px;
+        margin-top: 10vh;
+        display: inline-block;
+    }
+    .certified {
+        background: rgb(98, 86, 18);
     }
 
     .nav-item:hover 
     {
         background: #1b1b1f; 
     }
+
+    .botname
+    {
+        color: #ccc;
+        font-family: Whitney, Arial, Helvetica, sans-serif; 
+        font-size: 2rem;
+        text-align: center; 
+        position: relative;
+        top: -10vh;
+    }
+
+    .inner-top-upvote
+    {
+        position: relative;
+        top: -12vh;
+        width: 4vw;
+        height: 3vh;
+        background: #222227;
+    }
+
+    #upvote
+    {
+        color: #ccc;
+        font-size: 1.3rem;
+        text-align: right;
+        margin-right: .5vw;
+        font-family: Whitney, Arial, Helvetica, sans-serif;
+    }
+    .card-top > img 
+    {
+        border-radius: 100px;
+    }
+
+    .card-top
+    {
+        height: 15vh;
+    }
     
+    .area-header {
+        color: #ccc;
+        font-family: Whitney, Arial, Helvetica, sans-serif;
+        text-align: center;
+        margin-top: 10vh;
+        font-size: 2rem;
+    }
     .nav-dropdown {
         font-size: 12.5px;
         cursor: pointer;
@@ -120,3 +216,19 @@
         font-family: Whitney;
     }
 }
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #201f1f; 
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #323232; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
