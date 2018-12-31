@@ -6,18 +6,23 @@
   src: url(./fonts/uni-sans.heavy-caps.otf);
 }
 
+@font-face {
+    font-family: Whitney;
+    src: url(/fonts/WhitneyHTF-Bold.otf);
+  }
+  
    .nav
     {
     position: absolute !important;
     top: 0 !important;
     left: 0 !important;
     width: 100% !important;
-    height: 50px !important;
-    background: #434343 !important;
+    height: 70px !important;
+    background: #222227 !important;
     }
    .nav-item
     {
-        font-size: 12.5px;
+        font-size: 1rem;
         cursor: pointer;
         display: inline-block;
         text-align: center;
@@ -25,27 +30,19 @@
         position: relative;
         color: rgb(255, 255, 255);
         background: transparent;
-        top: 35%;
-        width: 6%;
-        right: -50%;
+        top: -1.5vh;
+        width: 5vw;
+        left: 15vw;
         text-decoration: none;
-        font-family: Whitney;
+        font-family: Ubuntu;
+        border: none;
     }
-    .nav-item:after 
+
+    .nav-item:hover 
     {
-        position:relative;
-        display: block;
-        content: '';
-        border-bottom: 1px solid #ffffff;
-        transform: scaleX(0); 
-        top: 0.5em;
-        left:0;
-        width:100%;
-        transition: transform 250ms ease-in-out;
+        background: #1b1b1f; 
     }
-    .nav-item:hover:after {
-        transform: scaleX(1) !important;
-    }
+    
     .nav-dropdown {
         font-size: 12.5px;
         cursor: pointer;
@@ -76,8 +73,9 @@
     {
         font-family: UniSansHeavy, Whitney, Arial, Helvetica, sans-serif;
         position: absolute;
-        top: -1vh;
-        left: 2%;    
+        top: -.5vh;
+        left: 3%;    
+        margin-left: 1vw;
         display: inline-block;
         color: rgb(255,255,255);
     }
