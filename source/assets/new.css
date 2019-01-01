@@ -81,7 +81,7 @@
     .bot-card {
         background: #222227;
         height: 40vh; 
-        width: 15vw;
+        width: 20vw;
         margin-left: 50px;
         margin-top: 10vh;
         display: inline-block;
@@ -124,6 +124,10 @@
     }
     .card-top > img 
     {
+        width: 150px; 
+        position: relative; 
+        top: -75px; 
+        left: 30%;
         border-radius: 100px;
     }
 
