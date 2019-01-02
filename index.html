@@ -20,30 +20,34 @@
   <meta property="og:image:alt" content="Bots for Discord Logo">
   <link rel='stylesheet' href='./source/assets/new.css'>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <script src="./source/assets/homepage.js"></script>
 </head>
 <body style='background: #26262b;'>
     <div class="nav">
-        <img src='https://botsfordiscord.com/img/bfd48.png' style='margin-top: 1vh; margin-left: 1vw; margin-right: 1vw;'>
-        <h1 class='nav-title'>Bots For Discord</h1>
-        
+        <div class='nav-title-area'>
+        <img src='https://botsfordiscord.com/img/bfd48.png' height='40vh' height='40vh'style='margin-top: 1.5vh; margin-left: 1vw; margin-right: 1vw; position: absolute; display: inline-block;'>  <h1 class='nav-title'>Bots For Discord</h1></img>
+        </div>
+        <div class="nav-button-area">
         <button class='nav-item'>Home</button>
         <button class='nav-item'>Discord</button>
         <button class='nav-item'>Add Bot</button>
         <button class='nav-item'>Verification</button>
-        <button class='nav-item'>More   <p style='position: relative; top: 0.1vh;' class="fas fa-angle-down"></p></button>
-        <button class='nav-item' style='margin-left: 40vw;'>Login</button>
+        <button class='nav-item' onmouseover='dropdown(this);' id='dropdown'>More   <p style='position: relative; top: 0.1vh;' class="fas fa-angle-down"></p>
+        <div class='nav-dropdown' onmouseover='dropdown(this.parentNode)'>
+            <a class='dropdown-option'>Terms</a>
+            <a class='dropdown-option'>API</a>
+            <a class='dropdown-option'>Partners</a>
+            <a class='dropdown-option'>Contributors</a>
+        </div>
+        </button>
+        <button class='nav-item' id='login' style='margin-left: 40vw;'>Login</button>
+    </div>
     </div>
     <section class="inside">
         <div class="opener">
         <h2>
-            <b>It's time to ditch DiscordBotList and DiscordBotGroup.</b>
+            <b>Bots for Discord.</b>
         </h2>
-        <h4>
-            User-Friendly bot list that focuses user experience above all else
-        </h4>
-        <h5>
-            Stop having to deal with pesky ads when looking for a bot that fits you.
-        </h5>
         </div>
         <div class="lower-opener">
             <textarea rows="1" style='resize: none; background: #ccc; margin-left: 44vw; font-family: ubuntu; border-radius: 5px; height: 4vh; width: 10vw; outline: none; font-size: 1.4rem;' placeholder="search"></textarea>
@@ -55,61 +59,42 @@
                     <img src="https://images.discordapp.net/avatars/235088799074484224/16c197c4c3f0eb808f9bceb6e1075e71.png?size=512"  alt="botimg">
                     <p class='botname' >Rythm</p>
                     <p class='servers'>2,857,514 Servers</p>
-                </div>
-                <div class='card-bottom'>
                     <p class='description'>
                         Rythm is a music bot. 
                     </p>
-                </div>
+            </div>
             </div>
             <div class='bot-card certified'>
                 <div class="card-top">
                         <img src="https://cdn.discordapp.com/avatars/430736222676320257/d89dfceafbd2240c2be079ea796a6ef5.png" alt="botimg">
                         <p class='botname'>Cafe</p>  
                         <p class='servers'>8,049 Servers</p>
-                </div>
-                <div class="card-bottom">
                     <p class="description">
                             a coffee bot.
                     </p>
-                </div>
+                    </div>
             </div>
             <div class='bot-card'>
                 <div class="card-top">
                         <img src="https://cdn.discordapp.com/avatars/220644154177355777/bd6b28005c26d079486063a4976dfb44.png" alt="botimg">
                         <p class='botname'>Watora</p>
                         <p class='servers'>14,738  Servers</p>
-                </div>
-                <div class="card-bottom">
                         <p class="description">
                             Some Anime Bot I found
                         </p>
-                </div>
+            </div>
             </div>
             <div class='bot-card'>
                 <div class="card-top">
                         <img src="https://cdn.discordapp.com/avatars/353287088528949248/c6f4314467b6923a900c3531536a83c7.png"  alt="botimg">
                         <p class='botname'>Seth</p>    
                         <p class='servers'>1,037 Servers</p>
-                </div>
-                <div class="card-bottom">
                         <p class="description">
                                 Habchys Growtopia Bot
                         </p>
-                </div>
             </div>
-            <div class='bot-card'>
-                <div class="card-top">
-                        <img src="https://cdn.discordapp.com/avatars/505846400467206167/8770b9b9459448c377e9bfceca4426ff.png"  alt="botimg">
-                        <p class='botname'>CSS Botte</p>
-                        <p class='servers'></p>    
-                </div>
-                <div class="card-bottom">
-                        <p class="description">
-                                Some bot made in css.
-                        </p>
-                </div>
             </div>
+
         </div>
     </section>
 </body>
