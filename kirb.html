@@ -35,17 +35,16 @@
   <!--Add nav-->
   <div class="container-fluid">
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #222227;">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
-        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+        aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle Navbar">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand" href="#"><img src='./source/assets/img/bfdgraphic/logo512.png' style='margin-left: 1vw; margin-right: 1vw; width: 90px; height: 90px'></a>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <a class="navbar-brand" href="#"><img src='./source/assets/img/bfdgraphic/logo512.png' style='margin-left: 1vw; margin-right: 1vw; width: 90px; height: 90px; '></a>
+      <div class="collapse navbar-collapse" id="navbarToggler">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
           <li class="nav-item dropdown">
             <button class="btn btn-secondary dropdown-toggle" style="background-color: #222227; border: 0px; font-family: Bungee"
-              type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Kirb#0001
+              type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Kirb#0001
             </button>
             <div class="dropdown-menu" style="background-color: #222227;" aria-labelledby="dropdownMenu2">
               <button class="dropdown-item" style="background-color: #2f2f33; color: #fff; font-family: Nunito" type="button"><img
@@ -57,17 +56,16 @@
             </div>
           </li>
           <li class="nav-item dropdown">
-              <button class="btn btn-secondary dropdown-toggle" style="background-color: #222227; border: 0px; font-family: Bungee"
-                type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                More
-              </button>
-              <div class="dropdown-menu" style="background-color: #222227;" aria-labelledby="dropdownMenu1">
-                <button class="dropdown-item" style="background-color: #2f2f33; color: #fff; font-family: Nunito" type="button">Our
-                  API</button>
-                <button class="dropdown-item" style="background-color: #2f2f33; color: #fff; font-family: Nunito" type="button">ToS</button>
-                <button class="dropdown-item" style="background-color: #2f2f33; color: #fff; font-family: Nunito" type="button">Contributors</button>
-                <button class="dropdown-item" style="background-color: #2f2f33; color: #fff; font-family: Nunito" type="button">Partners</button>
-              </div>
+            <button class="btn btn-secondary dropdown-toggle" style="background-color: #222227; border: 0px; font-family: Bungee"
+              type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More
+            </button>
+            <div class="dropdown-menu" style="background-color: #222227;" aria-labelledby="dropdownMenu1">
+              <button class="dropdown-item" style="background-color: #2f2f33; color: #fff; font-family: Nunito" type="button">Our
+                API</button>
+              <button class="dropdown-item" style="background-color: #2f2f33; color: #fff; font-family: Nunito" type="button">ToS</button>
+              <button class="dropdown-item" style="background-color: #2f2f33; color: #fff; font-family: Nunito" type="button">Contributors</button>
+              <button class="dropdown-item" style="background-color: #2f2f33; color: #fff; font-family: Nunito" type="button">Partners</button>
+            </div>
           </li>
           <li class="nav-item active">
             <a class="nav-link" style="color: #fff; font-family: Bungee" href="#">Home</a>
@@ -75,10 +73,16 @@
           <li class="nav-item">
             <a class="nav-link" style="color: #fff; font-family: Bungee" href="#">Bots</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item pull-right">
             <a class="nav-link" style="color: #fff; font-family: Bungee" href="#">Discord</a>
           </li>
         </ul>
+        <!--Create a search bar in the nav? Dunno how this will look in the end, but it feels right-->
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search for Bots" aria-label="Search" style="background-color: #ffffff; font-family: Nunito;">
+            <button class="btn my-2 my-sm-0" type="submit"><img
+              src='./source/assets/img/icons/search.png' style='width: 27px; height: 27px; margin-right: 0px'></button>
+          </form>
       </div>
     </nav>
   </div>
