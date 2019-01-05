@@ -269,3 +269,7 @@
          display: none;
      }
 }
+
+body .scroll-to-top-button {
+    background: #222227;
+}
