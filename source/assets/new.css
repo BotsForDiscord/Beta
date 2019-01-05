@@ -270,6 +270,6 @@
      }
 }
 
-body .show {
-    background: #222227;
+.show {
+    background: #222227 !important;
 }
