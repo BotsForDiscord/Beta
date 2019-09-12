@@ -3,7 +3,7 @@ Static beta frontend for BFD.
 
                     ALL RIGHTS RESERVED LICENSE
 
- Copyright (C) 2018 Charbel Habchy
+ Copyright (C) 2018-2019 Charbel Habchy
  Nobody in any way shape or form is permitted to copy and distribute verbatim copies
  of anything inside of this repository.
 
